@@ -44,7 +44,7 @@ public class CarRental {
                     carFounded.setRented(false);
                 }
             } else {
-                throw new Exception("Car does not exist");
+                throw new Exception("Car does not exist!");
             }
     }
 }
